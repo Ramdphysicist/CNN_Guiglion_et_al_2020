@@ -10,14 +10,12 @@ the 6th data release of the RAdial Velocity Experiment (Steinmetz et al. 2020). 
 to the photometry, we included Gaia DR2, 2MASS and ALL_ISE photometry.
 More details on the project can be found in Guiglion et al. 2020. 
 
-The present Jupiter notebook requires: 
+The Jupyter Notebook Guiglion_et_al_2020.ipynb allows one to build a series of CNN models, 
+and derive atmospheric parameters and chemical abundances. It allows also to reproduce 
+Figures 6, 7, and 8 of Guiglion et al 2020.
 
+Executing the Notebook requires at least:
 numpy '1.19.2'
 keras '2.4.0'
 panda'1.1.2'
 tensorflow '2.3.0'
-
-The notebook Guiglion_et_al_2020.ipynb allows one to build a series of CNN models, 
-and derive atmospheric parameters and chemical abundances. It allows also to reproduce 
-Figures 6, 7, and 8 of Guiglion et al 2020.
-
